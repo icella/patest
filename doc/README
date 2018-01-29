@@ -1,0 +1,15 @@
+接口测试程序
+
+目录说明:
+
+|--
+|--config  配置目录
+  ---- config.properties 测试程序配置参数
+  ---- dbconfig.properties 读取历史测试数据的mysql地址配置
+|--lib
+|--logs 日志文件
+|--script 日志统计脚本
+  ---- stat_console.sh 执行该脚本,可以统计日志信息,计算出接口最大值/最小值/平均值/并发数,并生成网页以图表形式展示
+|--src 源码
+|--exec 执行包, 测试可以只关心这个文件夹
+
